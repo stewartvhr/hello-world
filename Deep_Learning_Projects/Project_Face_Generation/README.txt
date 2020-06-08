@@ -3,6 +3,6 @@ This is a project from the Udacity Course Deep Learning that creates and trains 
 
 dlnd_face_generation.html is an html file containing the jupyter notebook that passed project specifications. 
 
-
+problem_unittests.py is a python file containing unit tests that are used to test the DCGAN. 
 
 
