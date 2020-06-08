@@ -1,2 +1,5 @@
 
-This is a project from the Udacity Deep Learning course that generates a new tv script for the show 'Seinfield' based on an existing script. 
+This is a project from the Udacity Deep Learning course that creates and trains an LSTM - based neural network to generate an original tv script for the show 'Seinfield' based on an existing tv script. 
+
+Seinfeld_Scripts.txt is the data used to train the LSTM - based neural network. 
+
