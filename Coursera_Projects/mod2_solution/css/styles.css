@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+}
+
+#label {
+    text-align: center;
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#container_one {
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#container_two {
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#container_three {
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/********** Desktop View **********/
+@media (min-width: 992px){
+    #container_one {
+        width: 29%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #container_two {
+        width: 29%;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+
+    #container_three {
+        width: 29%;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px){
+    #container_one {
+        width: 46%;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    #container_two {
+        width: 46.32%;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    #container_three {
+        width: 95.71%;
+        margin-top: 20px;
+        margin-left: 14px;
+        margin-right: auto;
+    }
+}
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+    #container_one {
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #container_two {
+        width: 96%;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+
+    #container_three {
+        width: 96%;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+}
